@@ -34,7 +34,7 @@
 .repeat-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px, 370px));
-    gap: 3em 2em;
+    gap: 3em 4em;
     margin-top: -8%;
     padding: 15px;
     justify-content: center;
