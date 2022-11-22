@@ -110,3 +110,12 @@
         relationship: null
         settings:
           list: true
+      - name: "team_sort"
+        label: "team_sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true

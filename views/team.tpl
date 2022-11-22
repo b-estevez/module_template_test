@@ -13,7 +13,7 @@
 
     <div> 
         <div class="repeat-content"> 
-            {{each team_items as items}}
+            {{each team_items as items sort by team_sort}}
             <div class="card content-container card-2"> 
                 <img src="{{items.image.getImage()}}">
                 <div class="card-body text-center card-body-2"> 
